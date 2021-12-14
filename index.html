@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="CSS/styles.css"/>
+</head>
+    <body onload=display_ct();>
+        <script type="text/javascript">
+
+        function display_c() {
+            var refresh = 1000;
+            mytime = setTimeout('display_ct()', refresh)
+        }
+
+        function display_ct() {
+            var x = new Date()
+            document.getElementById('ct').innerHTML = x;
+            display_c();
+        }
+    </script>
+<div class="main">
+        <nav>
+            <div class="Myself">
+                <img src="Images/aestetik.jpg">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="about me.html">About Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="name">
+        <p><font color="lightgoldenrodyellow">Greetings!</font></p>
+        <h1><font color="lightgoldenrodyellow">I'm Ellery BenjieCuasay</font></h1>
+        <h2><font color="lightgoldenrodyellow">BSIT - 105</font></h2>
+        <a href="https://www.facebook.com/" class="btn1"><img src="Images/fb.png" width="80" height="50"></a>
+        <a href="https://twitter.com/home" class="btn2"><img src="Images/twitter.png" width="60" height="50"></a>
+        <a href="https://www.instagram.com/?hl=en" class="btn3"><img src="Images/ig.png" width="50" height="50"></a>
+    </div>
+    <center><p id='ct'></p></center>
+</body>
+</html>
