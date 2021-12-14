@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../Images/Yawa.png");
+
+}
+nav {
+    top: 0%;
+    left: 0;
+    width: 100%;
+    text-transform: uppercase;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    background: linear-gradient(to right, #000000, #8ecdff);
+    box-shadow: 2px 2px 12px;
+    z-index: 1;
+    background-image: url("../Images/Yawa.png");
+}
+.Myself{
+    flex-basis: 20%;
+}
+.Myself img{
+    width: 250px;
+    height: 250px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a:hover,
+active{
+    color: white; !important;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all ease 0.4s;
+}
+.name{
+    font-family: Calibri;
+    width:500px;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    transform: translate(-20%,-50%);
+}
+.name p{
+    color: #ffffff;
+    font-size: 18px;
+}
+.name h1{
+    font-family: Poppins;
+    font-size: 40px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+}
+.name h2 {
+    font-family: Poppins;
+    font-size: 30px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+}
+.hobbies {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../Images/aesthetic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hobbies h1 {
+    font-family: Poppins;
+    font-size: 100px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    padding: 50px 550px;
+}
+.hobbies ul, li {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    align-items: center;
+    padding: 20px 370px;
+}
+.contact {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../Images/DARK.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact h1 {
+    font-family: Poppins;
+    font-size: 100px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    padding: 50px 550px;
+}
+.contact form {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    align-items: center;
+    padding: 20px 370px;
+}
+.skills {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../Images/anime.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.skills h1 {
+    font-family: Poppins;
+    font-size: 100px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    padding: 50px 750px;
+}
+.skills table {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    align-items: center;
+    padding: 20px 750px;
+}
+a { color: lightgoldenrodyellow; }
+
+table { 
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px dimgray;
+    background-color: transparent;
+    text-align: center;
+    z-index: 5;
+    width: 650px;
+    height: 150px
+    line-height: center;
+    position: center;
+    margin-bottom: 20px;
+}
+
+thead {
+    box-shadow: 0 5px 10px lightgray;
+}
+
+th {
+    padding: 3rem 6rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+td{
+    padding: 3%;
+}
+h1{
+    color: white;
+}
+.btn1{
+    display: inline-block;
+    padding: 2rem 2rem;
+    background-color: transparent;
+    font-size: 2rem;
+    text-decoration: none;
+    color: transparent;
+    border-radius: 100px;
+    transform: background 0.5s;
+}
+
+.btn1:hover {
+    background: #dadada;
+}
+.btn2{
+    display: inline-block;
+    padding: 2rem 2rem;
+    background-color: transparent;
+    font-size: 2rem;
+    text-decoration: none;
+    color: transparent;
+    border-radius: 100px;
+    transform: background 0.5s;
+}
+
+.btn2:hover {
+    background: #dadada;
+}.btn3{
+    display: inline-block;
+    padding: 2rem 2rem;
+    background-color: transparent;
+    font-size: 2rem;
+    text-decoration: none;
+    color: transparent;
+    border-radius: 100px;
+    transform: background 0.5s;
+}
+
+.btn3:hover {
+    background: #dadada;
+}
+/* about section styling */
+.about {
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+}
+#about {
+    width: 100%;
+    height: 110vh;
+    background-image: url("../Images/moon.png");
+    box-sizing: border-box;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+}
+
+.about-text {
+    font-family: calibri;
+    width: 50%;
+}
+
+    .about-text h1 {
+        font-size: 5rem;
+        color: white;
+    }
+
+    .about-text h1 {
+        margin: 0px;
+        padding: 0px 0px;
+    }
+
+    .about-text p {
+        font-size: 1.2rem;
+        color: white;
+    }
+   .about-model img {
+    width: 800px;
+    height: 800px;
+}
